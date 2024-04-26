@@ -1,0 +1,11 @@
+renda_mensal = 2500
+score_credito = 650
+fiador_score_credito = 680
+if renda_mensal >= 2000 and 
+(score_credito >= 600 or 
+fiador_score_credito >= 700):
+print("Você é elegível para o 
+empréstimo.")
+else:
+print("Você não é elegível para o 
+empréstimo."
